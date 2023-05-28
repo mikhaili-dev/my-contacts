@@ -1,0 +1,24 @@
+.delete-contact-btn {
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    /* border-bottom: 2px rgb(161, 161, 161) solid; */
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(203 100 100);
+    color: rgb(225 223 223);
+}
+.delete-contact-btn:hover {
+    /* border-bottom: 2px rgb(0, 0, 0) solid; */
+    transform: translateY(-2px);
+    color: rgb(235, 235, 235)
+}
+.delete-contact-btn:disabled, .delete-contact-btn:disabled:hover {
+    background-color: rgb(201, 133, 133);
+    color: rgb(225 223 223);
+    transform: none;
+    cursor: default;
+}

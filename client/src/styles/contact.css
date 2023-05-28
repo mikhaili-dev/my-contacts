@@ -1,0 +1,65 @@
+.contact {
+    width: 100%;
+    margin: auto;
+    padding: 15px 30px;
+    height: 57px;
+    background-color: rgb(102 102 102);;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    overflow: hidden;
+    user-select: none;
+    border-radius: 10px;
+}
+.contact.active {
+    height: auto;
+}
+.contact-initial-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+.contact span {
+    color: #b9b9b9;
+}
+.show-info-btn.active {
+    transform: rotate(180deg);
+}
+.show-info-btn:hover {
+    cursor: pointer;
+}
+.fields-list {
+    padding-left: 0;
+    list-style: none;
+}
+.fields-list li {
+    padding: 15px 15px 15px 10px;
+    color: #dddddd;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    font-size: 1.1em;
+}
+.fields-list li span {
+    margin-right: 10px;
+    color: #c9c9c9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fields-list li svg {
+    flex-shrink: 0;
+    justify-self: end;
+    cursor: pointer;
+}
+.change-contact-btn {
+    float: right;
+    background-color: inherit;
+    font-size: .7em;
+    border: 1px #c5c5c5 solid;
+    color: #cbcbcb;
+    cursor: pointer;
+    padding: 5px;
+}
+.change-contact-btn:hover {
+    color: #dfdfdf;
+    border: 1px #e7e7e7 solid;
+}

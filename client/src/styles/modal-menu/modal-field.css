@@ -1,0 +1,17 @@
+.modal-field-wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 5px 40px 5px;
+}
+.modal-field-wrapper > input {
+    font-size: 1.3em;
+    padding: 5px;
+    text-align: center;
+    border-width: 1px;
+}
+input[id=web] {
+    border-radius: 15px 0px 0px 15px
+}
+input[id=link] {
+    border-radius: 0px 15px 15px 0px
+}

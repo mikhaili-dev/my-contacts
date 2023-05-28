@@ -1,0 +1,50 @@
+.auth-wrapper, 
+.notfound-wrapper {
+    height: 100vh;
+}
+.auth-content-wrapper, 
+.notfound-content-wrapper  {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    margin: auto;
+    width: fit-content;
+}
+.auth-content-wrapper h1,
+.notfound-content-wrapper h1,
+.auth-content-wrapper h2,
+.notfound-content-wrapper h2 {
+    width: fit-content;
+    margin: auto;
+}
+.auth-content-wrapper h1,
+.notfound-content-wrapper h1 {
+    font-size: 3em;
+    color: rgb(173 173 173);
+}
+.auth-content-wrapper h2,
+.notfound-content-wrapper h2 {
+    margin-bottom: 50px;
+    font-size: 2.3em;
+    color: rgb(221 221 221);
+}
+.auth-content-wrapper > div,
+.notfound-content-wrapper > div {
+    display: flex;
+    justify-content: center;
+}
+.notfound-content-wrapper > div {
+    align-items: center;
+}
+#oval-1 {
+    fill: #444;
+}
+#oval-2, #oval-3 {
+    fill: #D3D3D3
+}
+@media (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.save-data-btn {
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #606060;
+    color: #c1c1c1;
+}
+.save-data-btn:hover {
+    transform: translateY(-2px);
+    color: rgb(219, 219, 219)
+}
+.save-data-btn:disabled, .save-data-btn:disabled:hover {
+    background-color: #818181;
+    color: #c1c1c1;
+    transform: none;
+    cursor: default;
+}

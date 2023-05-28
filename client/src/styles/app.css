@@ -1,0 +1,6 @@
+.alerts-wrapper {
+    position: fixed;
+    top: 80px;
+    right: 5px;
+    z-index: 1000;
+  }

@@ -1,0 +1,18 @@
+.alert {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    color: #3c3c3c;
+    margin-bottom: 15px;
+    transform: translateX(255px);
+    transition: all 1s;
+    user-select: none;
+}
+.alert.active {
+    transform: translateX(0px);
+}
+.alert.hide {
+    transition: all 2s;
+    opacity: 0;
+}

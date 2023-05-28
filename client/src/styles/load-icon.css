@@ -1,0 +1,17 @@
+#load_icon {
+  animation: spin 1.5s linear infinite;
+}
+@keyframes spin {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 1, 150;
+      }
+      50% {
+        stroke-dashoffset: -35;
+        stroke-dasharray: 30, 150;
+      }
+      100% {
+        stroke-dashoffset: -150;
+        stroke-dasharray: 60, 150;
+      }
+}
